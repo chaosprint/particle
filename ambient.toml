@@ -1,0 +1,10 @@
+[project]
+id = "particle"
+name = "particle"
+version = "0.0.1"
+
+[components]
+particle_life = { type = "F32" }
+
+[messages.input.fields]
+shoot = { type = "Bool", name = "Shoot", description = "Whether the player is shooting." }
